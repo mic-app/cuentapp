@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuenta Mus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f5f5f7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 350px;
+      width: 90%;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+    p {
+      color: #666;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    a.button {
+      display: block;
+      padding: 12px 20px;
+      background: #007aff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    a.button:hover {
+      background: #005ecb;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- Logo de tu app -->
+    <img src="logo.png" alt="Logo de Cuenta Mus">
+
+    <!-- Titulo y descripcion -->
+    <h1>Cuenta Mus</h1>
+    <p>Descarga la aplicacion desde el App Store y encuentra soporte y politica de privacidad.</p>
+
+    <!-- Botones -->
+    <div class="buttons">
+      <!-- Boton App Store -->
+      <a class="button" href="https://apps.apple.com/es/app/cuenta-mus/id6698850293" target="_blank">
+        Visitar App Store
+      </a>
+
+      <!-- Boton Soporte -->
+      <a class="button" href="https://forms.gle/wdNGrAkTX79zT48N6" target="_blank">
+        Soporte
+      </a>
+
+      <!-- Boton Politica de privacidad -->
+      <a class="button" href="/CuentaMus/PrivacyPolicy/">
+        Politica de privacidad
+      </a>
+    </div>
+  </div>
+</body>
+</html>
